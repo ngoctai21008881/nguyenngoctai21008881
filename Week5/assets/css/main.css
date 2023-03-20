@@ -1,0 +1,43 @@
+
+#wrapper {
+  width: 1410px;
+  height: 1055px;
+  margin: 0px auto;
+}
+
+.logo {
+  margin-top: 10px;
+}
+.wp-top {
+  display: flex;
+  justify-content: center;
+}
+
+.list-top {
+  display: flex;
+}
+
+.list-menu-top {
+  display: flex;
+  list-style: none;
+  margin-left: 15px;
+}
+
+.list-menu-top li {
+  margin-right: 25px;
+}
+
+.search-top {
+  width: 335px;
+  height: 35px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 315px;
+  border-radius: 5px;
+  border: 1px solid rgb(223, 211, 211);
+}
+
+.information-top img {
+  margin-left: 5px;
+  margin-top: 10px;
+}

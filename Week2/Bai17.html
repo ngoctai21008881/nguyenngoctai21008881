@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 17</title>
+    <style>
+      #container {
+        width: 960px;
+        margin: 0px auto;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: bisque;
+      }
+      h1 {
+        text-align: center;
+      }
+      .box {
+        margin-top: 15px;
+        padding-left: 20px;
+      }
+      textarea {
+        text-align: left;
+      }
+      /* .box input {
+        padding-left: 20px;
+      } */
+      .mb-right25px {
+        margin-right: 25px;
+      }
+      .box-center {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Survey Form</h1>
+      <p>
+        If you are Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
+        vitae deserunt odio quae, distinctio ullam officia autem alias id et!
+        Optio, neque. Nostrum, illo aliquam. Laboriosam veritatis ducimus
+        adipisci voluptas, libero repudiandae id quae facere unde placeat
+        mollitia assumenda fugiat quasi eveniet, dignissimos deleniti
+        praesentium voluptate ut, at aliquid minima.Thank you very much!
+        <br />
+      </p>
+      <div class="box-content">
+        <div class="box">
+          <label for="">1. What is your name?</label><br />
+          <input type="text" size="40" />
+        </div>
+
+        <div class="box">
+          <label for="">2. What is your date of birth?</label><br />
+          <label for="">Month: </label>
+          <select id="months">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <label for="">Date:</label>
+          <select name="" id="Date" size="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+            <option value="">13</option>
+            <option value="">14</option>
+            <option value="">15</option>
+            <option value="">16</option>
+            <option value="">17</option>
+            <option value="">18</option>
+            <option value="">19</option>
+            <option value="">20</option>
+            <option value="">21</option>
+            <option value="">22</option>
+            <option value="">23</option>
+            <option value="">24</option>
+            <option value="">25</option>
+            <option value="">26</option>
+            <option value="">27</option>
+            <option value="">28</option>
+            <option value="">29</option>
+            <option value="">30</option>
+            <option value="">31</option>
+          </select>
+          <label for="">Year:</label>
+          <select name="" id="Year" size="1">
+            <option value="1">2023</option>
+          </select>
+        </div>
+
+        <div class="box">
+          <label for=""
+            >3.What is your mailing address(if you would like to have sent to
+            you)?</label
+          >
+          <br /><textarea name="" id="textarea-textleft" cols="50" rows="4">
+Number:
+Street:
+City:
+State:
+            </textarea
+          >
+        </div>
+        <div class="box">
+          <label for="">4. What is your email address?</label><br />
+          <input type="text" size="25" />
+        </div>
+        <div class="box">
+          <label for="">5.Have you view?</label><br />
+          <input type="radio" name="Answer" id="Yes" />
+          <label for="Yes">Yes</label>
+          <input type="radio" name="Answer" id="No" />
+          <label for="No">No</label>
+        </div>
+        <div class="box">
+          <label for=""
+            >6. If so, Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed pariatur, rerum culpa incidunt quam esse?</label
+          ><br />
+          <input type="checkbox" name="option" value="value1" />
+          <label for="value1">VCR</label><br />
+          <input type="checkbox" name="option" value="value2" />
+          <label for="value2">Big Screen TV</label><br />
+          <input type="checkbox" name="option" value="value3" />
+          <label for="value3">Audio</label><br />
+          <input type="checkbox" name="option" value="value4" />
+          <label for="value4">Video</label><br />
+          <input type="checkbox" name="option" value="value5" />
+          <label for="value5">Cameras</label><br />
+          <input type="checkbox" name="option" value="value6" checked />
+          <label for="value6">Other</label>
+          <input type="text" name="" id="" placeholder="Please List" /><br />
+        </div>
+        <div class="box">
+          <label for="">7. Do you have any question?</label><br />
+          <textarea name="" id="" cols="50" rows="7">
+Your Input
+          </textarea>
+        </div>
+        <div class="box-center">
+          <button class="mb-right25px">Send Form</button>
+          <button>Clear Form</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

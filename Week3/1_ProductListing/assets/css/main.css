@@ -1,0 +1,303 @@
+#wrapper {
+    width: 1447px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .head-menu {
+    margin-left: 105px;
+  }
+  .head-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+  }
+  .wp-head {
+    display: flex;
+  }
+  .head-img {
+    margin-left: 248px;
+  }
+  .input-search {
+    border: none;
+    width: 150px;
+    height: 21px;
+  }
+  .head-product {
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-left: 180px;
+    height: 40px;
+    display: flex;
+  }
+  .button-search {
+    color: gray;
+    background-color: white;
+    font-size: 13px;
+    border: none;
+  }
+  .header__search-btn {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  height: 100%;
+  width: 40px;
+  outline: none;
+  font-size: 1.3rem;
+  color: rgb(172, 180, 187);
+}
+.bt-icon-search {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(209, 206, 206);
+}
+  .input-search-2 {
+
+    border: none;
+    width: 245px;
+    height: 30px;
+  }
+  .bg {
+    width: 100%;
+    height: 390px;
+    position: relative;
+  }
+  .bg-label {
+    position: absolute;
+    top: 100px;
+    left: 135px;
+  }
+  .list-style {
+    list-style: none;
+  }
+  .bg-label h1 {
+    font-size: 50px;
+  }
+  .bg-label p {
+    font-size: 19px;
+  }
+  .bg-label {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bg-label p {
+    margin-top: -25px;
+  }
+  .center-menu ul li {
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    padding: 15px 48px;
+    /* background-color: black; */
+    color: rgb(27, 172, 27);
+    /* height: 50px; */
+    /* margin-top: 25px; */
+  }
+  .wp-center {
+    margin-top: 25px;
+    margin-left: 110px;
+    display: flex;
+  }
+  .size-font-19px {
+    font-size: 19px;
+  }
+  .hv-product {
+    position: relative;
+  }
+  .hv-product:hover {
+    background-color: rgb(178, 180, 179);
+  }
+  .hv-product-separate::after {
+    top: 13px;
+    right: 0;
+    content: "";
+    position: absolute;
+    display: block;
+    border-left: 1px solid rgb(15, 144, 94);
+    height: 25px;
+
+  }
+  .sort-by {
+    margin-top: 0px;
+    padding: 5px;
+    height: 50px;
+    width: 132px;
+    margin-left: 5px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    font-size: 17px;
+  }
+  .center-search {
+    margin-left: 245px;
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+  }
+  /* .wp-center-img ul li {
+    width: 13%;
+    display: inline-block;
+    margin-left: 110px;
+  } */
+  ul.list-product {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+  }
+  .list-product {
+    margin-left: 145px;
+    /* display: grid; */
+    /* grid-template-columns: 20% 20% 20% 20%; */
+    padding-bottom: 20px;
+  }
+  .item-product {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .active {
+    background-color: rgb(15, 144, 94);
+    color: white !important;
+  }
+  /* .item-product div {
+    padding-right: 20px;
+  } */
+  /* .item-product div img {
+    margin-bottom: 15px;
+  } */
+  .mg-top-15px {
+    margin-top: -15px;
+  }
+  .font-size-30px {
+    font-size: 30px;
+  }
+  .font-wetght-bold {
+    font-weight: bold;
+  }
+  .button-giohang {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  .item {
+    position: relative;
+    margin-right: 33px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+  .font-weight-light {
+    font-weight: lighter;
+  }
+  .wp-bot {
+    background-color: black;
+    width: 1439px;
+    height: 435px;
+  }
+  .seller {
+    position: relative;
+  }
+  .bt-seller {
+    border: none;
+    margin-top: 13px;
+    margin-right: 13px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(240, 195, 84);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .bt-new {
+    border: none;
+    margin-top: 13px;
+    margin-right: 13px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(240, 195, 84);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .bot-left {
+    
+    display: flex;
+  }
+  .bot-left ul {
+    margin-top: 90px;
+  }
+  .bot-left ul li {
+    margin-top: 20px;
+  }
+  .select{
+    border-radius: 5px;
+    width: 125px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+  }
+  .color-white {
+    color: white;
+  }
+  .wp-bot {
+    display: flex;
+  }
+  .bot-right {
+    margin-top: 70px;
+    margin-left: 265px;
+  }
+  .form-email {
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 50px;
+  }
+  .input-email{
+    font-size: 20px;
+    outline: none;
+    padding: 0px;
+    border: none;
+    background-color: black;
+
+    width: 290px;
+    height: 100%;
+  }
+  .bt-sub {
+    font-size: 20px;
+    padding:0 20px;
+    color: white;
+    border: none;
+    background-color: rgb(19, 195, 124);
+    height: 100%;
+  }
+
+  .email-icon {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+  }
+  .number-center {
+    justify-content: center;
+    display: flex;
+  }
+  .number-center ul li {
+    display: inline-block;
+    padding: 17px;
+  }
+  .number-center ul {
+    padding-left: 0px;
+  }
+  .list-icon ul li {
+    display: inline-block;
+  }
+  .list-brand ul li {
+    display: inline-block;
+  }
+  .list-brand ul {
+    list-style: disc;
+    padding-left: 0px;
+  }
+  .list-icon ul {
+    padding-left: 0px;
+  }
+

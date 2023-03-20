@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 6</title>
+    <style>
+      tr,
+      td {
+        padding: 30px;
+        text-align: center;
+      }
+      .bg-cam {
+        background-color: orange;
+      }
+
+      .bg-gold {
+        background-color: gold;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td>1</td>
+        <td colspan="4">2</td>
+      </tr>
+      <tr>
+        <td rowspan="3">3</td>
+        <td class="bg-cam">4</td>
+        <td class="bg-cam">5</td>
+        <td rowspan="2" colspan="2" class="bg-gold">6</td>
+      </tr>
+      <tr>
+        <td class="bg-cam">7</td>
+        <td class="bg-cam">8</td>
+      </tr>
+      <tr>
+        <th colspan="2" class="bg-gold">9</th>
+        <td colspan="2" class="bg-gold">10</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+
+    <div id="table-2">
+      <table
+        class="table-2-conten"
+        style="background-color: rgb(228, 179, 114)"
+        border="3px"
+        cellspacing="2px"
+        cellpadding="5px"
+      >
+        <tr>
+          <th>(1)</th>
+          <th>(2)</th>
+          <th>(3)</th>
+          <th colspan="2">(4)</th>
+          <th>(5)</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="4">Part I</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="3"><u>Chapter 1</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td colspan="2"><u>Section A</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td colspan="2"><u>Section B</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="3"><u>Chapter 2</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td colspan="2"><u>Section A</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td colspan="2"><u>Section B</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="4">Part II</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="3"><u>Chapter 3</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td colspan="2"><u>Section A</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td colspan="2"><u>Section B</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="3"><u>Chapter 4</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td colspan="2"><u>Section A</u></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td colspan="2"><u>Section B</u></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
