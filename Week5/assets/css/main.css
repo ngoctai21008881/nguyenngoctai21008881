@@ -1,8 +1,12 @@
 
 #wrapper {
   width: 1410px;
-  height: 1055px;
   margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.bd-bottom {
+  border-bottom: 1px solid rgba(196, 189, 189, 0.61);
 }
 
 .logo {
@@ -11,6 +15,7 @@
 .wp-top {
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid;
 }
 
 .list-top {
@@ -27,6 +32,11 @@
   margin-right: 25px;
 }
 
+.list-menu-top :hover {
+  margin-right: 25px;
+  border-bottom: 3px solid blue;
+}
+
 .search-top {
   width: 335px;
   height: 35px;
@@ -40,4 +50,135 @@
 .information-top img {
   margin-left: 5px;
   margin-top: 10px;
+}
+
+.list-center ul li {
+  margin-right: 10px;
+  padding-left: 0px;
+}
+
+.wp-center {
+  width: 1210px;
+  margin: 0px auto;
+}
+
+.proview {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.flex-item img {
+  padding-bottom: 16px;
+  padding-right: 20px;
+}
+.flex-item {
+  display: flex; 
+  flex-wrap: wrap; 
+  margin-left: 15px;
+}
+
+.Buy-now {
+  padding: 15px; 
+  border: 1px solid whitesmoke;
+}
+
+.nav-buy-now {
+  margin-bottom: 20px;
+}
+
+.btn-buy {
+  list-style: none;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 45px;
+  background-color: aqua;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.btn-cart {
+  width: 100%;
+  height: 45px;
+  color: aqua;
+  background-color: white;
+  border: 1px solid aqua;
+  border-radius: 5px;
+}
+
+.review {
+  width: 1200px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.feedback {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+}
+
+.list-name {
+  display: flex;
+}
+
+.nav-fb {
+  width: 583.5px;
+  margin-bottom: 30px;
+}
+
+.related-see{
+  display: flex;
+  justify-content: space-between;
+}
+
+.related products {
+  margin-top: 50px;
+  height: 300px;
+}
+
+.nav-product{
+  display: flex;
+  width: 100%;
+}
+
+.list-product {
+  width: 280px;
+  border: 1px solid whitesmoke;
+  margin-right: 20px;
+}
+
+.title-love {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-sold {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.center-product {
+  padding: 15px;
+}
+
+.font-email {
+  width: 100%;
+  text-align: center;
+}
+
+.logo-bottom {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.email-sub {
+  border: 1px solid whitesmoke;
+  display: inline-block;
 }
